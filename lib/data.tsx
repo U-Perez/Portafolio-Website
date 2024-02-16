@@ -22,3 +22,20 @@ export const NavItems: items[] = [
     path: "experience",
   },
 ];
+
+export const skills = [
+  { skill: "HTML5" },
+  { skill: "CSS3" },
+  { skill: "JavaScript" },
+  { skill: "TypeScript" },
+  { skill: "TailwindCSS" },
+  { skill: "React" },
+  { skill: "Next Js" },
+  { skill: "Git" },
+  { skill: "Github" },
+  { skill: "Node Js" },
+  { skill: "Express Js" },
+  { skill: "JWT" },
+  { skill: "MySql" },
+  { skill: "NPM" },
+];
