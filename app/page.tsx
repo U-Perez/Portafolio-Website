@@ -1,5 +1,4 @@
 import AboutPage from "@/components/AboutPage";
-import ExperiencePage from "@/components/ExperiencePage";
 import HomePage from "@/components/HomePage";
 import ProjectsPage from "@/components/ProjectsPage";
 
