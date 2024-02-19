@@ -42,19 +42,21 @@ export const skills = [
 
 export const projects = [
   {
-    name: "ChatRoom",
+    title: "ChatRoom",
     description:
       "Una Aplicación Web de mensajería en tiempo real con websockets implementados, login, registro y listado de contactos",
+    tags: ["React", "Ionic", "Node Js", "Express", "MySql"],
     image: "/img/ChatRoom.png",
-    github: "https://github.com/U-Perez/Frontend-Chat",
-    link: "https://thankfulthoughts.io/",
+    frontend: "https://github.com/U-Perez/Frontend-Chat",
+    backend: "https://github.com/U-Perez/Backend-Chat",
   },
   {
-    name: "Edumark RRHH",
+    title: "Edumark RRHH",
     description:
-      "Edumark es diseñada para llevar un control y gestión de los empleados dentro de la plataforma, cuenta con 3 perfiles: empleados, empresa, sindicato cada perfil contiene información diferente donde podran interactuar",
+      "Edumark es diseñada para llevar un control y gestión de los empleados dentro de la plataforma, cuenta con 3 perfiles: empleados, empresa, sindicato",
+    tags: ["Angular", "Node Js", "JWT", "Express"],
     image: "/img/EdumarkRH.png",
-    github: "https://github.com/U-Perez/Frontend-RH-Edumark",
-    link: "https://platoio.com/register",
+    frontend: "https://github.com/U-Perez/Frontend-RH-Edumark",
+    backend: "https://github.com/U-Perez/Backend-RH-Edumark",
   },
-]; 
+];
