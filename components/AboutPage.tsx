@@ -1,9 +1,18 @@
+"use client";
+
 import React from "react";
 import { skills } from "@/lib/data";
+import { motion } from "framer-motion";
 
 const AboutPage = () => {
   return (
-    <section id="about" className="scroll-mt-20">
+    <motion.section
+      id="about"
+      className="scroll-mt-20"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+    >
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
@@ -45,7 +54,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
