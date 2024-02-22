@@ -3,23 +3,19 @@ import { items } from "@/lib/type";
 export const NavItems: items[] = [
   {
     name: "Home",
-    path: "home",
+    path: "#home",
   },
   {
     name: "About ",
-    path: "about",
+    path: "#about",
   },
   {
     name: "Projects",
-    path: "projects",
-  },
-  {
-    name: "Skills",
-    path: "skills",
+    path: "#projects",
   },
   {
     name: "Experience",
-    path: "experience",
+    path: "#experience",
   },
 ];
 

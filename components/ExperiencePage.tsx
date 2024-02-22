@@ -2,9 +2,9 @@ import React from "react";
 
 const ExperiencePage = () => {
   return (
-    <section>
+    <section id="experience" className="scroll-mt-20">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="my-10 text-center font-bold text-4xl">
+        <h1 className="text-center font-bold text-4xl">
           Experience
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
