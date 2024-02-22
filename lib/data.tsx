@@ -38,6 +38,9 @@ export const skills = [
   { skill: "JWT" },
   { skill: "MySql" },
   { skill: "NPM" },
+  { skill: "Sequelize" },
+  { skill: "Framer" },
+  { skill: "Postman" },
 ];
 
 export const projects = [
@@ -45,16 +48,25 @@ export const projects = [
     title: "ChatRoom",
     description:
       "Una Aplicación Web de mensajería en tiempo real con websockets implementados, login, registro y listado de contactos",
-    tags: ["React", "Ionic", "Node Js", "Express", "MySql"],
+    tags: [
+      "React",
+      "Ionic",
+      "Tailwind Css",
+      "Node Js",
+      "Express",
+      "Sequelize",
+      "WebSockets",
+      "Mysql",
+    ],
     image: "/img/ChatRoom.png",
     frontend: "https://github.com/U-Perez/Frontend-Chat",
     backend: "https://github.com/U-Perez/Backend-Chat",
   },
   {
-    title: "Edumark RRHH",
+    title: "Sistema de Gestión RH",
     description:
-      "Edumark es diseñada para llevar un control y gestión de los empleados dentro de la plataforma, cuenta con 3 perfiles: empleados, empresa, sindicato",
-    tags: ["Angular", "Node Js", "JWT", "Express"],
+      "Diseñada para llevar un control y gestión de los empleados dentro de la empresa, cuenta con dos perfiles: empleados y empresa",
+    tags: ["Angular", "Ionic", "Css3", "Node Js", "JWT", "Express", "MySql"],
     image: "/img/EdumarkRH.png",
     frontend: "https://github.com/U-Perez/Frontend-RH-Edumark",
     backend: "https://github.com/U-Perez/Backend-RH-Edumark",
