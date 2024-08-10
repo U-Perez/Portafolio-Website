@@ -15,7 +15,7 @@ const ExperiencePage = () => {
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 April 2023 - August 2023
               </time>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-600">
                 Application Web RH
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -27,7 +27,7 @@ const ExperiencePage = () => {
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 July 2019 - January 2022
               </time>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-gray-600">
                 Asistente de Sistemas
               </h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
